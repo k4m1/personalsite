@@ -4,9 +4,10 @@ class ConnectionManager
     {
         this.conn = null;
         this.peers = new Map;
-
+        
         this.tetrisManager = tetrisManager;
         this.localTetris = this.tetrisManager.instances[0];
+
     }
 
     connect(address)
