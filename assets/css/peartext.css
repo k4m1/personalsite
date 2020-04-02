@@ -14,7 +14,7 @@
     transform: translate3d(0, 0, 0); } }
 
 .animated-title {
-  color: black;
+  color: whitesmoke;
   font-family: Roboto, Arial, sans-serif;
   height: 90vmin;
   left: 50%;
@@ -22,7 +22,10 @@
   top: 50%;
   transform: translate(-50%, -50%);
   width: 90vmin;
-  margin-left: 300px; }
+  margin-left: 300px;
+  left: 25% !important;
+  top: 45% !important;
+ }
 
 .animated-title > div {
   height: 50%;
